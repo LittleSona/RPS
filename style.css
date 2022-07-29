@@ -1,0 +1,85 @@
+
+
+html {
+    height: 100%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(34, 32, 32);
+    min-height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-style: solid;
+    border-color: white;
+    padding:20px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px red;
+}
+
+div{
+    color:white;
+    font-size: large;
+}
+
+.myBtn{
+    border-style: solid;
+    border-radius: 7px;
+    border-color: white;
+    color:white;
+    background-color: rgb(34, 32, 32);
+    font-size: 24px;
+    box-shadow: 5px 3px 1px red;
+    transition: width 2s;
+}
+.Buttons{
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.choices{
+    display: flex;
+    gap:10px
+}
+
+.player{
+    border-style: solid;
+    border-color:white;
+    border-radius: 15px;
+    padding:10px;
+    margin-bottom: 15px;
+}
+
+.computer{
+    border-style: solid;
+    border-color:white;
+    border-radius: 15px;
+    padding:10px;
+    margin-bottom: 15px;
+}
+
+.end-result{
+    display:flex;
+    justify-content: center;
+    font-size: larger;
+    font-style: bold;
+}
+
+.myBtn:hover{
+    transition: 0.5s;
+    font-size: 170%;
+
+}
+
+.myBtn:active{
+    transition: 0.1s;
+    font-size: 150%;
+    background-color: white;
+}
